@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Josellene | Comércio, Gestão de Empreendimentos, Consultoria e Serviços em Angola</title>
+  <meta name="description" content="Josellene - Mais de 20 anos de experiência em Energia Renovável Solar, Agricultura Urbana e Hidroponia, Consultoria Financeira e Fiscal, Logística, IT e Soluções Corporativas em Angola.">
+  <meta name="keywords" content="Josellene, GPA Angola, consultoria empresarial Luanda, energia solar fotovoltaica Angola, hidroponia Luanda, contabilidade e fiscalidade, logística e armazenagem, desenvolvimento web Angola">
+  <meta name="author" content="Josellene - Grupo GPA Angola">
+  
+  <!-- Open Graph / Meta Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Josellene | Soluções Corporativas Integradas em Angola">
+  <meta property="og:description" content="Comércio, Gestão de Empreendimento, Consultoria e Prestação de Serviços com mais de 20 anos de tradição e excelência.">
+  <meta property="og:image" content="assets/logo.png">
+  <meta property="og:url" content="https://josellene.co.ao">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div class="top-info">
+        <a href="tel:+244933237972" class="top-item"><i class="fa-solid fa-phone"></i> (+244) 933 237 972</a>
+        <a href="mailto:contacto@josellene.co.ao" class="top-item"><i class="fa-solid fa-envelope"></i> contacto@josellene.co.ao</a>
+        <span class="top-item"><i class="fa-solid fa-location-dot"></i> Belas / Cabolombo, Luanda - Angola</span>
+      </div>
+      <div class="top-actions">
+        <span class="badge-group"><i class="fa-solid fa-shield-halved"></i> Membro do Grupo GPA Angola</span>
+        <div class="lang-switch">
+          <span class="active-lang">PT</span>
+          <span>|</span>
+          <span class="disabled-lang">EN</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="Josellene Início">
+        <img src="assets/logo.png" alt="Logotipo Oficial Josellene" class="logo-img">
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="main-nav" id="mainNav">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre Nós</a></li>
+          <li><a href="#servicos" class="nav-link">Áreas de Atuação</a></li>
+          <li><a href="#metodologia" class="nav-link">Metodologia</a></li>
+          <li><a href="#grupo" class="nav-link">Grupo GPA</a></li>
+          <li><a href="#clientes" class="nav-link">Clientes</a></li>
+          <li><a href="#contacto" class="nav-link">Contactos</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-cta-group">
+        <a href="#orcamento" class="btn btn-primary btn-sm btn-pulse" id="btnPedirPropostaNav">
+          <i class="fa-solid fa-file-invoice"></i> Pedir Proposta
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu de navegação">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-header">
+      <img src="assets/logo.png" alt="Josellene Logo" class="mobile-logo">
+      <button class="drawer-close" id="drawerClose" aria-label="Fechar menu">&times;</button>
+    </div>
+    <ul class="drawer-nav">
+      <li><a href="#hero" class="drawer-link">Início</a></li>
+      <li><a href="#sobre" class="drawer-link">Sobre Nós</a></li>
+      <li><a href="#servicos" class="drawer-link">Áreas de Atuação</a></li>
+      <li><a href="#metodologia" class="drawer-link">Metodologia</a></li>
+      <li><a href="#grupo" class="drawer-link">Grupo GPA Angola</a></li>
+      <li><a href="#clientes" class="drawer-link">Clientes e Parceiros</a></li>
+      <li><a href="#orcamento" class="drawer-link">Simular Proposta</a></li>
+      <li><a href="#contacto" class="drawer-link">Fale Conosco</a></li>
+    </ul>
+    <div class="drawer-contact">
+      <p><strong>Atendimento Geral:</strong></p>
+      <p>(+244) 933 237 972</p>
+      <p>(+244) 931 943 828</p>
+      <a href="https://wa.me/244933237972" class="btn btn-whatsapp w-100" target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp"></i> Conversar no WhatsApp
+      </a>
+    </div>
+  </div>
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg-media">
+      <img src="assets/hero.jpg" alt="Reunião executiva de governança e negócios corporativos em Luanda" class="hero-img">
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-badge animate-fade-in">
+        <span class="badge-dot"></span> Mais de 20 Anos de Excelência e Inovação em Angola
+      </div>
+
+      <h1 class="hero-title animate-fade-up">
+        Transformamos a Realidade das Empresas com <span class="gradient-text">Resultados Sólidos</span>
+      </h1>
+
+      <p class="hero-description animate-fade-up delay-1">
+        A <strong>Josellene</strong> é líder em Comércio, Gestão de Empreendimento, Consultoria Estratégica e Prestação de Serviços integrados. Do agronegócio sustentável e energia solar à consultoria financeira e tecnologia corporativa.
+      </p>
+
+      <div class="hero-actions animate-fade-up delay-2">
+        <a href="#servicos" class="btn btn-primary btn-lg">
+          <i class="fa-solid fa-layer-group"></i> Nossas Soluções
+        </a>
+        <a href="#contacto" class="btn btn-outline-light btn-lg">
+          <i class="fa-solid fa-headset"></i> Agendar Reunião
+        </a>
+      </div>
+
+      <!-- Quick Metrics Strip -->
+      <div class="hero-stats-grid animate-fade-up delay-3">
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-calendar-check"></i></div>
+          <div class="stat-numbers"><span class="counter" data-target="20">20</span>+</div>
+          <div class="stat-label">Anos de Experiência</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-briefcase"></i></div>
+          <div class="stat-numbers"><span class="counter" data-target="8">8</span></div>
+          <div class="stat-label">Áreas de Negócios</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+          <div class="stat-numbers"><span class="counter" data-target="100">100</span>%</div>
+          <div class="stat-label">Conformidade e Rigor</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-building-columns"></i></div>
+          <div class="stat-numbers">Holding</div>
+          <div class="stat-label">Grupo GPA Angola</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Sobre Nós & Pilares Corporativos -->
+  <section class="section section-about" id="sobre">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="image-stack">
+            <img src="assets/consulting.jpg" alt="Consultoria e Auditoria Estratégica Josellene" class="img-main">
+            <div class="badge-experience">
+              <span class="exp-number">20+</span>
+              <span class="exp-text">Anos de<br>Solidez no Mercado</span>
+            </div>
+          </div>
+          <div class="quote-box">
+            <i class="fa-solid fa-quote-left quote-icon"></i>
+            <p>“Foque em seu negócio, deixe a burocracia com a gente! Sua empresa 100% regularizada e pagando o justo com máxima conformidade.”</p>
+            <div class="quote-author">
+              <strong>Dr. David F. J. Neto</strong>
+              <span>Administrador CEO</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-info">
+          <div class="section-tag">QUEM SOMOS</div>
+          <h2 class="section-title">Uma Empresa Angolana Estruturada para Impulsionar o Seu Crescimento</h2>
+          <p class="section-lead">
+            A <strong>Josellene</strong> é uma sociedade empresarial de direito angolano vocacionada na prestação de soluções estratégicas multissetoriais. Aliamos tradição corporativa e capacidade técnica de ponta para atender as mais exigentes demandas de mercado.
+          </p>
+          <p class="text-muted">
+            Com uma equipa multidisciplinar de profissionais altamente qualificados, atuamos em total consonância com as necessidades específicas de cada parceiro. Mantemos investimentos constantes na formação de quadros e na modernização tecnológica para encarar com excelência e precisão os desafios do presente e do futuro.
+          </p>
+
+          <!-- Missão, Visão e Valores -->
+          <div class="mvv-cards">
+            <div class="mvv-card">
+              <div class="mvv-icon icon-blue"><i class="fa-solid fa-bullseye"></i></div>
+              <div class="mvv-text">
+                <h3>Missão</h3>
+                <p>Transformar a realidade das empresas e organizações ao transferir conhecimento relevante e gerar resultados concretos e sustentáveis.</p>
+              </div>
+            </div>
+
+            <div class="mvv-card">
+              <div class="mvv-icon icon-cyan"><i class="fa-solid fa-compass"></i></div>
+              <div class="mvv-text">
+                <h3>Visão</h3>
+                <p>Ser o principal aliado estratégico das empresas em Angola, permitindo a conquista de vantagens competitivas seguras, rápidas e eficientes.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Valores Chips -->
+          <div class="values-list-wrapper">
+            <h4 class="values-title"><i class="fa-solid fa-award"></i> Nossos Princípios Fundamentais:</h4>
+            <div class="values-chips">
+              <span class="chip"><i class="fa-solid fa-check-circle"></i> Assertividade</span>
+              <span class="chip"><i class="fa-solid fa-check-circle"></i> Credibilidade</span>
+              <span class="chip"><i class="fa-solid fa-check-circle"></i> Eficácia</span>
+              <span class="chip"><i class="fa-solid fa-check-circle"></i> Ética e Respeito</span>
+              <span class="chip"><i class="fa-solid fa-check-circle"></i> Inovação Contínua</span>
+              <span class="chip"><i class="fa-solid fa-check-circle"></i> Trabalho em Equipa</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Áreas de Atuação / Serviços Completos -->
+  <section class="section section-services bg-light" id="servicos">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag">PORTFÓLIO MULTISSETORIAL</div>
+        <h2 class="section-title">Soluções Corporativas Completas e Integradas</h2>
+        <p class="section-subtitle">
+          Atuamos em setores estratégicos da economia angolana com rigor técnico, pontualidade e conformidade regulatória.
+        </p>
+      </div>
+
+      <!-- Service Filter Buttons -->
+      <div class="service-filters" id="serviceFilters">
+        <button class="filter-btn active" data-filter="all">Todas as Áreas</button>
+        <button class="filter-btn" data-filter="sustentabilidade">Sustentabilidade & Energia</button>
+        <button class="filter-btn" data-filter="gestao">Gestão & Finanças</button>
+        <button class="filter-btn" data-filter="logistica">Logística & Operações</button>
+        <button class="filter-btn" data-filter="tecnologia">Tecnologia & Formação</button>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="services-grid" id="servicesGrid">
+
+        <!-- 1. Energia Solar Fotovoltaica -->
+        <article class="service-card" data-category="sustentabilidade">
+          <div class="service-img-wrapper">
+            <img src="assets/solar_agri.jpg" alt="Energia Solar Fotovoltaica e Hidroponia em Angola" class="service-img">
+            <span class="category-badge green-badge"><i class="fa-solid fa-solar-panel"></i> Energia Limpa</span>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fa-solid fa-sun"></i></div>
+            <h3 class="service-name">Energia Renovável e Solar Fotovoltaica</h3>
+            <p class="service-desc">
+              Viabilizamos a implementação completa de sistemas solares fotovoltaicos sob medida para indústrias, comércios, agronegócio e residências.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-circle-check"></i> Elaboração, estudo de viabilidade e homologação</li>
+              <li><i class="fa-solid fa-circle-check"></i> Venda e fornecimento de componentes certificados</li>
+              <li><i class="fa-solid fa-circle-check"></i> Instalação técnica profissional e comissionamento</li>
+              <li><i class="fa-solid fa-circle-check"></i> Manutenção preventiva e acompanhamento pós-venda</li>
+            </ul>
+            <div class="service-footer">
+              <a href="#contacto" class="link-arrow" onclick="preencherAssunto('Interesse em Energia Solar Fotovoltaica')">Solicitar Projeto <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. Agricultura Urbana e Hidropônica -->
+        <article class="service-card" data-category="sustentabilidade">
+          <div class="service-img-wrapper">
+            <img src="assets/solar_agri.jpg" alt="Agricultura Urbana e Hidropônica" class="service-img">
+            <span class="category-badge green-badge"><i class="fa-solid fa-seedling"></i> Agro Sustentável</span>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fa-solid fa-leaf"></i></div>
+            <h3 class="service-name">Agricultura Urbana e Hidropônica</h3>
+            <p class="service-desc">
+              Produção de hortaliças, ervas aromáticas e frutas em sistemas modernos sem solo com altíssima rentabilidade hídrica e produtividade garantida.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-circle-check"></i> Instalação e manutenção completa de estufas</li>
+              <li><i class="fa-solid fa-circle-check"></i> Fornecimento de Kit Hidroponia Mini Sistema NFT</li>
+              <li><i class="fa-solid fa-circle-check"></i> Instalação de sistemas de rega automatizada</li>
+              <li><i class="fa-solid fa-circle-check"></i> Consultoria técnica e design de projetos agrícolas</li>
+            </ul>
+            <div class="service-footer">
+              <a href="#contacto" class="link-arrow" onclick="preencherAssunto('Interesse em Agricultura Urbana e Hidroponia')">Falar com Especialista <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. Consultoria Financeira, Contabilidade e Controlo Interno -->
+        <article class="service-card" data-category="gestao">
+          <div class="service-img-wrapper">
+            <img src="assets/consulting.jpg" alt="Gestão Financeira e Contabilidade em Luanda" class="service-img">
+            <span class="category-badge blue-badge"><i class="fa-solid fa-chart-line"></i> Finanças & Fiscal</span>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+            <h3 class="service-name">Gestão Financeira, Contabilidade & Fiscalidade</h3>
+            <p class="service-desc">
+              Asseguramos conformidade legal, redução de custos tributários e total rigor nas demonstrações económico-financeiras da sua instituição.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-circle-check"></i> Contabilidade organizada e cumprimento fiscal rigoroso</li>
+              <li><i class="fa-solid fa-circle-check"></i> Gestão financeira avançada e relatórios de fluxo de caixa</li>
+              <li><i class="fa-solid fa-circle-check"></i> Auditoria interna e mitigação de riscos regulatórios</li>
+              <li><i class="fa-solid fa-circle-check"></i> Apoio estratégico executivo com demonstrativos mensais</li>
+            </ul>
+            <div class="service-footer">
+              <a href="#contacto" class="link-arrow" onclick="preencherAssunto('Interesse em Consultoria Financeira e Fiscal')">Consultar Pacotes <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. Soluções de TI & Tecnologia -->
+        <article class="service-card" data-category="tecnologia">
+          <div class="service-img-wrapper">
+            <img src="assets/technology.jpg" alt="Desenvolvimento Web e Soluções Digitais" class="service-img">
+            <span class="category-badge cyan-badge"><i class="fa-solid fa-code"></i> Tecnologia</span>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <h3 class="service-name">Soluções de IT & Transformação Digital</h3>
+            <p class="service-desc">
+              Oferta integrada de desenvolvimento de softwares, sistemas e presença digital para acelerar a produtividade corporativa no mercado.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-circle-check"></i> Desenvolvimento de Sites e Plataformas Web de alta performance</li>
+              <li><i class="fa-solid fa-circle-check"></i> Criação de Aplicativos Mobile (iOS/Android) e Desktop</li>
+              <li><i class="fa-solid fa-circle-check"></i> Lojas Virtuais e Plataformas de E-commerce robustas</li>
+              <li><i class="fa-solid fa-circle-check"></i> Design UI/UX profissional e otimização de infraestrutura</li>
+            </ul>
+            <div class="service-footer">
+              <a href="#contacto" class="link-arrow" onclick="preencherAssunto('Interesse em Soluções de TI e Desenvolvimento')">Solicitar Projeto Tech <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5. Logística, Armazenagem e Distribuição -->
+        <article class="service-card" data-category="logistica">
+          <div class="service-img-wrapper">
+            <img src="assets/logistics.jpg" alt="Logística e Transporte em Angola" class="service-img">
+            <span class="category-badge amber-badge"><i class="fa-solid fa-truck-fast"></i> Logística</span>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fa-solid fa-warehouse"></i></div>
+            <h3 class="service-name">Logística, Armazenagem & Distribuição</h3>
+            <p class="service-desc">
+              Ampla infraestrutura para suprir cadeias de suprimentos e transporte em Luanda e em todas as províncias com segurança e pontualidade.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-circle-check"></i> Transporte de Cargas Fracionadas e Cargas Pesadas</li>
+              <li><i class="fa-solid fa-circle-check"></i> Transporte de Máquinas e Produtos Químicos licenciados</li>
+              <li><i class="fa-solid fa-circle-check"></i> Armazenagem de mercadorias e gestão avançada de stocks</li>
+              <li><i class="fa-solid fa-circle-check"></i> Soluções logísticas para E-commerce, Indústria e Farmácia</li>
+            </ul>
+            <div class="service-footer">
+              <a href="#contacto" class="link-arrow" onclick="preencherAssunto('Interesse em Soluções Logísticas e Distribuição')">Cotação de Frete e Armazenagem <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6. Educação Online & Treinamento Profissional -->
+        <article class="service-card" data-category="tecnologia">
+          <div class="service-img-wrapper">
+            <img src="assets/education.jpg" alt="Educação Online e Treinamento Corporativo" class="service-img">
+            <span class="category-badge blue-badge"><i class="fa-solid fa-graduation-cap"></i> Capacitação</span>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <h3 class="service-name">Educação Online & Treinamento Profissional</h3>
+            <p class="service-desc">
+              Plataforma de ensino e programas de formação contínua desenhados para qualificar talentos e elevar o padrão operacional das empresas.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-circle-check"></i> Cursos em Tecnologias de Informação e Comunicação</li>
+              <li><i class="fa-solid fa-circle-check"></i> Formação executiva em Empreendedorismo e Gestão</li>
+              <li><i class="fa-solid fa-circle-check"></i> Capacitação de lideranças e habilidades corporativas</li>
+              <li><i class="fa-solid fa-circle-check"></i> Programas in-company adaptados à realidade do seu time</li>
+            </ul>
+            <div class="service-footer">
+              <a href="#contacto" class="link-arrow" onclick="preencherAssunto('Interesse em Educação Online e Formação Corporativa')">Conhecer Cursos <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 7. Franquias e Parcerias Comerciais -->
+        <article class="service-card" data-category="gestao">
+          <div class="service-img-wrapper">
+            <img src="assets/franchise.jpg" alt="Desenvolvimento de Franquias e Expansão Comercial" class="service-img">
+            <span class="category-badge amber-badge"><i class="fa-solid fa-network-wired"></i> Negócios</span>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fa-solid fa-store"></i></div>
+            <h3 class="service-name">Franquias & Parcerias Comerciais</h3>
+            <p class="service-desc">
+              Modelo empresarial replicável e sólido para alavancar a expansão de marcas e unidades operacionais com rentabilidade comprovada.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-circle-check"></i> Estruturação de manuais operacionais e modelos de franquia</li>
+              <li><i class="fa-solid fa-circle-check"></i> Expansão regional e abertura de novas frentes comerciais</li>
+              <li><i class="fa-solid fa-circle-check"></i> Treinamento e assessoria na gestão dos franqueados</li>
+              <li><i class="fa-solid fa-circle-check"></i> Alianças comerciais estratégicas em todo território nacional</li>
+            </ul>
+            <div class="service-footer">
+              <a href="#contacto" class="link-arrow" onclick="preencherAssunto('Interesse em Franquias e Parcerias Comerciais')">Ser Parceiro <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 8. Turismo Sustentável e Ecoturismo -->
+        <article class="service-card" data-category="sustentabilidade">
+          <div class="service-img-wrapper">
+            <img src="assets/tourism.jpg" alt="Turismo Sustentável e Ecoturismo em Angola" class="service-img">
+            <span class="category-badge green-badge"><i class="fa-solid fa-compass"></i> Turismo Verde</span>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fa-solid fa-mountain-sun"></i></div>
+            <h3 class="service-name">Turismo Sustentável & Ecoturismo</h3>
+            <p class="service-desc">
+              Experiências que valorizam a exuberante biodiversidade de Angola, promovendo conservação ambiental e desenvolvimento comunitário.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-circle-check"></i> Roteiros e pacotes turísticos ecológicos em reservas naturais</li>
+              <li><i class="fa-solid fa-circle-check"></i> Valorização de parques nacionais e comunidades locais</li>
+              <li><i class="fa-solid fa-circle-check"></i> Logística completa de expedições sustentáveis</li>
+              <li><i class="fa-solid fa-circle-check"></i> Apoio a iniciativas de preservação e turismo consciente</li>
+            </ul>
+            <div class="service-footer">
+              <a href="#contacto" class="link-arrow" onclick="preencherAssunto('Interesse em Turismo Sustentável e Ecoturismo')">Explorar Roteiros <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Metodologia de Execução -->
+  <section class="section section-methodology" id="metodologia">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag">COMO OPERAMOS</div>
+        <h2 class="section-title">Metodologia Estruturada em 4 Fases</h2>
+        <p class="section-subtitle">
+          Um modelo de execução testado e comprovado para garantir resultados previsíveis, seguros e com total transparência gerencial.
+        </p>
+      </div>
+
+      <div class="timeline-grid">
+        <div class="timeline-step">
+          <div class="step-num">01</div>
+          <div class="step-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+          <h3 class="step-title">Fase I: Diagnóstico & Planeamento</h3>
+          <p class="step-desc">Levantamento aprofundado do cenário, análise de necessidades, identificação de riscos e estruturação de metas precisas.</p>
+        </div>
+
+        <div class="timeline-step">
+          <div class="step-num">02</div>
+          <div class="step-icon"><i class="fa-solid fa-gears"></i></div>
+          <h3 class="step-title">Fase II: Implementação Operacional</h3>
+          <p class="step-desc">Execução no terreno com metodologia ágil, alocação de especialistas qualificados e utilização de tecnologia de ponta.</p>
+        </div>
+
+        <div class="timeline-step">
+          <div class="step-num">03</div>
+          <div class="step-icon"><i class="fa-solid fa-chart-pie"></i></div>
+          <h3 class="step-title">Fase III: Monitorização & Relatórios</h3>
+          <p class="step-desc">Emissão de relatórios mensais e trimestrais da posição da empresa, métricas de desempenho e suporte analítico à administração.</p>
+        </div>
+
+        <div class="timeline-step">
+          <div class="step-num">04</div>
+          <div class="step-icon"><i class="fa-solid fa-clipboard-check"></i></div>
+          <h3 class="step-title">Fase IV: Auditoria & Avaliação Contínua</h3>
+          <p class="step-desc">Auditoria interna detalhada, refinamento de processos, conformidade legal e garantia da perenidade das soluções adotadas.</p>
+        </div>
+      </div>
+
+      <!-- Caixa de Entregáveis -->
+      <div class="deliverables-box">
+        <div class="deliverables-header">
+          <i class="fa-solid fa-box-archive"></i>
+          <div>
+            <h3>Entregáveis Garantidos em Nossos Contratos</h3>
+            <p>Documentação e acompanhamento formal de cada etapa do projeto</p>
+          </div>
+        </div>
+        <div class="deliverables-list">
+          <div class="deliv-item"><i class="fa-solid fa-circle-check"></i> Relatórios Mensais de Posição Financeira e Operacional</div>
+          <div class="deliv-item"><i class="fa-solid fa-circle-check"></i> Relatórios Trimestrais de Análise Económico-Financeira</div>
+          <div class="deliv-item"><i class="fa-solid fa-circle-check"></i> Demonstrações Financeiras e Balanços Anuais Certificados</div>
+          <div class="deliv-item"><i class="fa-solid fa-circle-check"></i> Manual de Procedimentos e Relatório de Auditoria Interna</div>
+          <div class="deliv-item"><i class="fa-solid fa-circle-check"></i> Reuniões Periódicas Estratégicas com a Direcção</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Simulador de Proposta / Calculadora Comercial -->
+  <section class="section section-quote bg-light" id="orcamento">
+    <div class="container">
+      <div class="quote-card">
+        <div class="quote-card-header">
+          <div class="section-tag">SIMULADOR INTERATIVO</div>
+          <h2 class="section-title">Calcule e Solicite sua Proposta Personalizada</h2>
+          <p class="section-subtitle">
+            Selecione as soluções que o seu negócio precisa e receba instantaneamente uma proposta detalhada com nossos consultores.
+          </p>
+        </div>
+
+        <div class="calculator-grid">
+          <div class="calculator-options">
+            <h4 class="calc-group-title">Selecione os Serviços de Interesse:</h4>
+
+            <label class="calc-checkbox-label">
+              <input type="checkbox" class="calc-service" value="Contabilidade e Fiscalidade" data-price="652500" checked>
+              <span class="custom-check"></span>
+              <span class="calc-info">
+                <strong>Contabilidade e Regularidade Fiscal</strong>
+                <small>Cumprimento fiscal integral, apuração de impostos e regularidade</small>
+              </span>
+              <span class="calc-price-tag">Mensal</span>
+            </label>
+
+            <label class="calc-checkbox-label">
+              <input type="checkbox" class="calc-service" value="Gestão Financeira Avançada" data-price="435000">
+              <span class="custom-check"></span>
+              <span class="calc-info">
+                <strong>Gestão Financeira Integrada</strong>
+                <small>Fluxo de caixa, tesouraria, relatórios periódicos de posição</small>
+              </span>
+              <span class="calc-price-tag">Mensal</span>
+            </label>
+
+            <label class="calc-checkbox-label">
+              <input type="checkbox" class="calc-service" value="Controlo Interno e Auditoria" data-price="362500">
+              <span class="custom-check"></span>
+              <span class="calc-info">
+                <strong>Controlo Interno & Auditoria</strong>
+                <small>Gestão de riscos, manual de procedimentos e auditoria interna</small>
+              </span>
+              <span class="calc-price-tag">Mensal</span>
+            </label>
+
+            <label class="calc-checkbox-label">
+              <input type="checkbox" class="calc-service" value="Energia Solar Fotovoltaica" data-price="0">
+              <span class="custom-check"></span>
+              <span class="calc-info">
+                <strong>Energia Solar Fotovoltaica</strong>
+                <small>Projetos técnicos, homologação e instalação fotovoltaica</small>
+              </span>
+              <span class="calc-price-tag">Sob Medida</span>
+            </label>
+
+            <label class="calc-checkbox-label">
+              <input type="checkbox" class="calc-service" value="Soluções de IT e Software" data-price="0">
+              <span class="custom-check"></span>
+              <span class="calc-info">
+                <strong>Soluções de IT & Desenvolvimento Web/App</strong>
+                <small>Sites, aplicativos corporativos e e-commerce integrado</small>
+              </span>
+              <span class="calc-price-tag">Sob Medida</span>
+            </label>
+
+            <label class="calc-checkbox-label">
+              <input type="checkbox" class="calc-service" value="Logística e Armazenagem" data-price="0">
+              <span class="custom-check"></span>
+              <span class="calc-info">
+                <strong>Logística, Transporte e Armazenagem</strong>
+                <small>Cargas pesadas/fracionadas e gestão de depósitos</small>
+              </span>
+              <span class="calc-price-tag">Sob Medida</span>
+            </label>
+          </div>
+
+          <div class="calculator-summary">
+            <div class="summary-card">
+              <h4 class="summary-title"><i class="fa-solid fa-receipt"></i> Resumo da Solicitação</h4>
+              
+              <div class="selected-services-list" id="selectedServicesList">
+                <!-- Preenchido dinamicamente via JS -->
+              </div>
+
+              <div class="package-discount-badge" id="discountBadge">
+                <i class="fa-solid fa-tag"></i> Desconto Pacote Global Integrado Ativo
+              </div>
+
+              <div class="summary-totals">
+                <div class="total-row">
+                  <span>Estimativa Mensal de Referência:</span>
+                  <strong id="totalMonthly">652.500,00 Kz</strong>
+                </div>
+                <div class="total-row total-anual">
+                  <span>Investimento Anual Estimado:</span>
+                  <strong id="totalYearly">7.830.000,00 Kz</strong>
+                </div>
+              </div>
+
+              <div class="summary-actions">
+                <button class="btn btn-primary w-100 mb-2" id="btnFinalizarSimulacao">
+                  <i class="fa-brands fa-whatsapp"></i> Receber Proposta no WhatsApp
+                </button>
+                <a href="#contacto" class="btn btn-outline w-100" id="btnPreencherContacto">
+                  <i class="fa-solid fa-paper-plane"></i> Enviar por Formulário
+                </a>
+              </div>
+              <p class="note-guarantee">
+                <i class="fa-solid fa-shield"></i> Valores sujeitos a confirmação após análise de volume e porte da empresa.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ecossistema Grupo GPA Angola -->
+  <section class="section section-group" id="grupo">
+    <div class="container">
+      <div class="group-banner">
+        <div class="group-header text-center">
+          <div class="group-holding-badge">HOLDING EMPRESARIAL</div>
+          <h2 class="group-title">Integrada ao Ecossistema GPA Angola</h2>
+          <p class="group-subtitle">
+            A Josellene soma forças com um ecossistema corporativo diversificado, garantindo escala, sinergia operacional e solidez patrimonial em todos os contratos assumidos.
+          </p>
+        </div>
+
+        <div class="companies-grid">
+          <div class="company-card highlight-card">
+            <div class="comp-icon"><i class="fa-solid fa-sitemap"></i></div>
+            <h4>Josellene</h4>
+            <p>Comércio, Gestão de Empreendimento, Consultoria e Serviços</p>
+          </div>
+
+          <div class="company-card">
+            <div class="comp-icon"><i class="fa-solid fa-globe"></i></div>
+            <h4>EliteTrade</h4>
+            <p>Comércio Internacional e Soluções Globais</p>
+          </div>
+
+          <div class="company-card">
+            <div class="comp-icon"><i class="fa-solid fa-truck"></i></div>
+            <h4>Distriangola</h4>
+            <p>Distribuição Especializada e Cadeia Logística</p>
+          </div>
+
+          <div class="company-card">
+            <div class="comp-icon"><i class="fa-solid fa-industry"></i></div>
+            <h4>Super Torres</h4>
+            <p>Construção, Estruturas e Equipamentos</p>
+          </div>
+
+          <div class="company-card">
+            <div class="comp-icon"><i class="fa-solid fa-atom"></i></div>
+            <h4>DM Cosmos</h4>
+            <p>Soluções Industriais e Tecnologias</p>
+          </div>
+
+          <div class="company-card">
+            <div class="comp-icon"><i class="fa-solid fa-chart-pie"></i></div>
+            <h4>Duplas DMP Investment</h4>
+            <p>Gestão de Ativos e Investimentos Estratégicos</p>
+          </div>
+
+          <div class="company-card">
+            <div class="comp-icon"><i class="fa-solid fa-tractor"></i></div>
+            <h4>Lucro do Agro</h4>
+            <p>Consultoria Agroecológica e Agronegócio Moderno</p>
+          </div>
+
+          <div class="company-card">
+            <div class="comp-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+            <h4>Enhance</h4>
+            <p>Comércio & Prestação de Serviços Especiais</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clientes e Parceiros de Referência -->
+  <section class="section section-clients" id="clientes">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag">CONFIANÇA COMPROVADA</div>
+        <h2 class="section-title">Grandes Marcas e Instituições que Confiam em Nosso Trabalho</h2>
+        <p class="section-subtitle">
+          Construímos relações duradouras com as maiores empresas e órgãos governamentais de Angola.
+        </p>
+      </div>
+
+      <div class="clients-badge-container">
+        <div class="client-pill">SONILS</div>
+        <div class="client-pill">SonaGás</div>
+        <div class="client-pill">Banco BNI</div>
+        <div class="client-pill">Academia BAI</div>
+        <div class="client-pill">Alimenta Angola</div>
+        <div class="client-pill">ITA</div>
+        <div class="client-pill">Bosch Service</div>
+        <div class="client-pill">ARSEG</div>
+        <div class="client-pill">Programa Alimentar Mundial (WFP)</div>
+        <div class="client-pill">Universidade Católica de Angola</div>
+        <div class="client-pill">Coca-Cola</div>
+        <div class="client-pill">ENDIAMA</div>
+        <div class="client-pill">Angola Cables</div>
+        <div class="client-pill">Casais Angola</div>
+        <div class="client-pill">NCR Angola</div>
+        <div class="client-pill">SAIPEM</div>
+        <div class="client-pill">Quality Contact Centers</div>
+        <div class="client-pill">Royal Seguros</div>
+        <div class="client-pill">AngoWeb</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Secção de Contacto e Localização -->
+  <section class="section section-contact" id="contacto">
+    <div class="container">
+      <div class="contact-card-wrapper">
+        <div class="contact-info-panel">
+          <div class="panel-header">
+            <div class="section-tag text-white">FALE CONOSCO</div>
+            <h2 class="panel-title">Inicie uma Parceria de Sucesso com a Josellene</h2>
+            <p class="panel-desc">
+              Nossa equipe está disponível para agendar uma reunião presencial em Luanda ou videoconferência estratégica.
+            </p>
+          </div>
+
+          <div class="contact-details">
+            <div class="detail-item">
+              <div class="detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="detail-content">
+                <strong>Sede Corporativa:</strong>
+                <p>Município de Belas, Distrito Urbano do Cabolombo, Zona Verde III, Av. Lúcio Lara, Rua 53, R/C Porta nº 01, Sala 1.1<br>Luanda, República de Angola</p>
+              </div>
+            </div>
+
+            <div class="detail-item">
+              <div class="detail-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="detail-content">
+                <strong>Linhas Telefónicas:</strong>
+                <p><a href="tel:+244933237972">(+244) 933 237 972</a></p>
+                <p><a href="tel:+244931943828">(+244) 931 943 828</a></p>
+                <p><a href="tel:+244933339108">(+244) 933 339 108</a></p>
+                <p><a href="tel:+244955030374">(+244) 955 030 374</a></p>
+              </div>
+            </div>
+
+            <div class="detail-item">
+              <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="detail-content">
+                <strong>Correio Eletrónico:</strong>
+                <p><a href="mailto:contacto@josellene.co.ao">contacto@josellene.co.ao</a></p>
+                <p><a href="mailto:geral@josellene.co.ao">geral@josellene.co.ao</a></p>
+                <p><a href="mailto:comercial@josellene.co.ao">comercial@josellene.co.ao</a></p>
+              </div>
+            </div>
+
+            <div class="detail-item">
+              <div class="detail-icon"><i class="fa-solid fa-clock"></i></div>
+              <div class="detail-content">
+                <strong>Horário de Funcionamento:</strong>
+                <p>Segunda a Sexta-feira: 08:00 às 17:30</p>
+                <p>Sábado: 08:30 às 13:00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="whatsapp-direct-box">
+            <div class="wa-text">
+              <strong>Prefere um atendimento imediato?</strong>
+              <span>Converse agora diretamente com nosso atendimento executivo</span>
+            </div>
+            <a href="https://wa.me/244933237972?text=Olá,%20gostaria%20de%20solicitar%20informações%20sobre%20os%20serviços%20da%20Josellene." target="_blank" rel="noopener" class="btn btn-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i> Chamar no WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Formulário de Contacto -->
+        <div class="contact-form-panel">
+          <h3 class="form-title">Envie uma Mensagem</h3>
+          <p class="form-desc">Preencha o formulário abaixo e entraremos em contacto em até 24 horas úteis.</p>
+
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="formNome">Nome Completo / Empresa *</label>
+              <div class="input-wrapper">
+                <i class="fa-regular fa-user input-icon"></i>
+                <input type="text" id="formNome" name="nome" placeholder="Ex: Dr. António Silva ou Empresa ABC" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="formEmail">E-mail Profissional *</label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-envelope input-icon"></i>
+                  <input type="email" id="formEmail" name="email" placeholder="nome@empresa.co.ao" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="formTelefone">Telefone / WhatsApp *</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-phone input-icon"></i>
+                  <input type="tel" id="formTelefone" name="telefone" placeholder="(+244) 9XX XXX XXX" required>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="formAssunto">Área de Interesse / Serviço *</label>
+              <div class="input-wrapper">
+                <i class="fa-solid fa-list-check input-icon"></i>
+                <select id="formAssunto" name="assunto" required>
+                  <option value="">Selecione a área desejada...</option>
+                  <option value="Gestão Financeira, Contabilidade e Fiscalidade">Gestão Financeira, Contabilidade e Fiscalidade</option>
+                  <option value="Energia Renovável e Solar Fotovoltaica">Energia Renovável e Solar Fotovoltaica</option>
+                  <option value="Agricultura Urbana e Hidropônica">Agricultura Urbana e Hidropônica</option>
+                  <option value="Soluções de IT e Desenvolvimento">Soluções de IT e Desenvolvimento</option>
+                  <option value="Logística, Armazenagem e Distribuição">Logística, Armazenagem e Distribuição</option>
+                  <option value="Educação Online e Treinamento Profissional">Educação Online e Treinamento Profissional</option>
+                  <option value="Franquias e Parcerias Comerciais">Franquias e Parcerias Comerciais</option>
+                  <option value="Turismo Sustentável e Ecoturismo">Turismo Sustentável e Ecoturismo</option>
+                  <option value="Outro Assunto">Outro Assunto</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="formMensagem">Detalhes da Solicitação *</label>
+              <textarea id="formMensagem" name="mensagem" rows="4" placeholder="Descreva brevemente sua necessidade ou projeto..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg w-100" id="btnSubmitForm">
+              <i class="fa-solid fa-paper-plane"></i> Enviar Mensagem
+            </button>
+
+            <div class="form-feedback" id="formFeedback"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé Institucional -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-col footer-col-brand">
+        <a href="#hero" class="footer-logo">
+          <img src="assets/logo.png" alt="Josellene Logo Branco" class="footer-logo-img">
+        </a>
+        <p class="footer-tagline">
+          Comércio, Gestão de Empreendimento, Consultoria e Prestação de Serviço. Construindo o futuro dos negócios com integridade, conformidade e inovação contínua.
+        </p>
+        <div class="holding-tag">
+          <i class="fa-solid fa-shield-halved"></i> Empresa pertencente ao <strong>Grupo GPA Angola</strong>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Navegação Rápida</h4>
+        <ul class="footer-links">
+          <li><a href="#hero">Início</a></li>
+          <li><a href="#sobre">Quem Somos</a></li>
+          <li><a href="#servicos">Áreas de Atuação</a></li>
+          <li><a href="#metodologia">Nossa Metodologia</a></li>
+          <li><a href="#orcamento">Simulador de Custos</a></li>
+          <li><a href="#clientes">Parceiros e Clientes</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Serviços Chave</h4>
+        <ul class="footer-links">
+          <li><a href="#servicos">Energia Solar Fotovoltaica</a></li>
+          <li><a href="#servicos">Agricultura Hidropônica</a></li>
+          <li><a href="#servicos">Contabilidade e Fiscalidade</a></li>
+          <li><a href="#servicos">Soluções de IT & Web</a></li>
+          <li><a href="#servicos">Logística & Armazenagem</a></li>
+          <li><a href="#servicos">Formação e Treinamentos</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Atendimento Direto</h4>
+        <div class="footer-contacts">
+          <p><i class="fa-solid fa-phone"></i> (+244) 933 237 972</p>
+          <p><i class="fa-solid fa-phone"></i> (+244) 931 943 828</p>
+          <p><i class="fa-solid fa-envelope"></i> geral@josellene.co.ao</p>
+          <p><i class="fa-solid fa-location-dot"></i> Belas / Cabolombo, Luanda - Angola</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://wa.me/244933237972" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="mailto:comercial@josellene.co.ao" aria-label="E-mail"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-content">
+        <p>&copy; <span id="currentYear"></span> <strong>Josellene</strong>. Todos os direitos reservados. Luanda, República de Angola.</p>
+        <p class="developed-by">Desenvolvido com excelência corporativa para o Grupo GPA Angola</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão Flutuante do WhatsApp -->
+  <a href="https://wa.me/244933237972?text=Olá!%20Visitei%20o%20site%20da%20Josellene%20e%20gostaria%20de%20mais%20informações." class="whatsapp-float" id="whatsappFloat" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp">
+    <div class="wa-float-pulse"></div>
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="wa-tooltip">Fale no WhatsApp!</span>
+  </a>
+
+  <!-- Botão Voltar ao Topo -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao início">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

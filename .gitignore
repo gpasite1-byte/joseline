@@ -1,0 +1,12 @@
+# Dependências e arquivos de sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# PDFs de grande porte (>100MB não permitidos pelo GitHub)
+*.pdf
+
+# Arquivos temporários do editor
+.vscode/
+.idea/
